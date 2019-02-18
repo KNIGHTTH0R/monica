@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2d70cb191cad5d1e04ce062368c9d294",
+    "content-hash": "f9b77d39a78c1717668110a1aa194bb2",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -1823,39 +1823,39 @@
         },
         {
             "name": "laravel/cashier",
-            "version": "v8.0.1",
+            "version": "v9.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/cashier.git",
-                "reference": "52bdcbe4c911d1075651d529fa40059abbd96139"
+                "reference": "21c4f3b60307d9583b6e812a918929f828805b73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/cashier/zipball/52bdcbe4c911d1075651d529fa40059abbd96139",
-                "reference": "52bdcbe4c911d1075651d529fa40059abbd96139",
+                "url": "https://api.github.com/repos/laravel/cashier/zipball/21c4f3b60307d9583b6e812a918929f828805b73",
+                "reference": "21c4f3b60307d9583b6e812a918929f828805b73",
                 "shasum": ""
             },
             "require": {
                 "dompdf/dompdf": "^0.8.0",
-                "illuminate/database": "~5.3",
-                "illuminate/support": "~5.3",
-                "nesbot/carbon": "~1.0",
-                "php": ">=7.0",
+                "ext-json": "*",
+                "illuminate/database": "~5.7.0|~5.8.0",
+                "illuminate/support": "~5.7.0|~5.8.0",
+                "nesbot/carbon": "^1.26.3 || ^2.0",
+                "php": "^7.1.3",
                 "stripe/stripe-php": "~6.0",
-                "symfony/http-kernel": "~2.7|~3.0|~4.0"
+                "symfony/http-kernel": "~4.0"
             },
             "require-dev": {
-                "illuminate/http": "~5.3",
-                "illuminate/routing": "~5.3",
-                "illuminate/view": "~5.3",
+                "illuminate/http": "~5.7.0|~5.8.0",
+                "illuminate/routing": "~5.7.0|~5.8.0",
+                "illuminate/view": "~5.7.0|~5.8.0",
                 "mockery/mockery": "~1.0",
-                "phpunit/phpunit": "~6.0",
-                "vlucas/phpdotenv": "~2.0"
+                "phpunit/phpunit": "~7.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "8.0-dev"
+                    "dev-master": "9.0-dev"
                 },
                 "laravel": {
                     "providers": [
@@ -1884,7 +1884,7 @@
                 "laravel",
                 "stripe"
             ],
-            "time": "2018-11-21T13:42:39+00:00"
+            "time": "2019-02-12T13:07:43+00:00"
         },
         {
             "name": "laravel/framework",
@@ -6015,16 +6015,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v6.29.0",
+            "version": "v6.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "b21d9a4a7198f99e2ad0915fa2389bca6717c219"
+                "reference": "570d47d566da6e87413db1fd3a833c42907cb746"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/b21d9a4a7198f99e2ad0915fa2389bca6717c219",
-                "reference": "b21d9a4a7198f99e2ad0915fa2389bca6717c219",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/570d47d566da6e87413db1fd3a833c42907cb746",
+                "reference": "570d47d566da6e87413db1fd3a833c42907cb746",
                 "shasum": ""
             },
             "require": {
@@ -6067,7 +6067,7 @@
                 "payment processing",
                 "stripe"
             ],
-            "time": "2019-01-23T23:51:39+00:00"
+            "time": "2019-02-16T17:48:38+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
